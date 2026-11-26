@@ -42,3 +42,9 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone <your-repository-url>
+pnpm install
+ANTHROPIC_API_KEY=XXX
+VITE_LOG_LEVEL=debug
+pnpm run dev
+pnpm test
+pnpm run deploy
